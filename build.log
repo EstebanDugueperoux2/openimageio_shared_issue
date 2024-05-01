@@ -1,0 +1,911 @@
+
+======== Exporting recipe to the cache ========
+openimageio_shared_test/0.0.1: Exporting package recipe: /test/conanfile.py
+openimageio_shared_test/0.0.1: Copied 1 '.py' file: conanfile.py
+openimageio_shared_test/0.0.1: Copied 1 '.txt' file: CMakeLists.txt
+openimageio_shared_test/0.0.1: Copied 2 '.cpp' files: main.cpp, openimageio_shared_test.cpp
+openimageio_shared_test/0.0.1: Copied 1 '.h' file: openimageio_shared_test.h
+openimageio_shared_test/0.0.1: Exported to cache folder: /root/.conan2/p/openiaa2c811e5f4cd/e
+openimageio_shared_test/0.0.1: Exported: openimageio_shared_test/0.0.1#82b8978507b0867b9c5f215e2c6668a0 (2024-05-01 13:51:07 UTC)
+
+======== Input profiles ========
+Profile host:
+[settings]
+arch=x86_64
+build_type=Debug
+compiler=gcc
+compiler.cppstd=17
+compiler.libcxx=libstdc++11
+compiler.version=10
+os=Linux
+[options]
+*/*:shared=True
+[conf]
+tools.system.package_manager:mode=install
+
+Profile build:
+[settings]
+arch=x86_64
+build_type=Release
+compiler=gcc
+compiler.cppstd=17
+compiler.libcxx=libstdc++11
+compiler.version=10
+os=Linux
+[conf]
+
+
+
+======== Computing dependency graph ========
+Graph root
+    cli
+Requirements
+    autoconf/2.71#00a1e46d8ba5baaf7f10d64c1a6a0342 - Cache
+    automake/1.16.5#058bda3e21c36c9aa8425daf3c1faf50 - Cache
+    boost/1.84.0#5cc9767cd47ba6b5e1b53ab4670f07fc - Cache
+    brotli/1.1.0#d56d7bb9ca722942aba17369cb5c0519 - Cache
+    bzip2/1.0.8#457c272f7da34cb9c67456dd217d36c4 - Cache
+    cpuinfo/cci.20231129#306f0c2325f566b37835fdea3af1cc2d - Cache
+    dav1d/1.2.1#94259c8baa2b1e7ab9976f1c20822be8 - Cache
+    expat/2.5.0#91e43e4544923e4c934bfad1fa4306f9 - Cache
+    ffmpeg/6.1#85d65b4d431f9ee9112724c965040eeb - Cache
+    flac/1.4.2#6a17595ab773d2de32e18b5d3b24afff - Cache
+    fmt/10.2.1#9199a7a0611866dea5c8849a77467b25 - Cache
+    freetype/2.13.2#dfa3d504cae4a08d5c72113bd6f28498 - Cache
+    giflib/5.2.1#40245212d3adda9d502692704b0b35ab - Cache
+    hdf5/1.14.3#31ccd8d4de83844f5db48471df1944a1 - Cache
+    imath/3.1.9#2e7f5802b247baae47235b4c8d5642c9 - Cache
+    jbig/20160605#2d29fa02aacd76902e0d2cbbc24631ef - Cache
+    lcms/2.14#8a8c02ab8c0631e06d705c38b171f053 - Cache
+    libalsa/1.2.10#8b568d62190ef588cd5dcdd81171c289 - Cache
+    libaom-av1/3.6.1#a569b342c6f8129cf327709e18691072 - Cache
+    libbacktrace/cci.20210118#ec1aa63bbc10145c6a299e68e711670c - Cache
+    libcap/2.69#7ef2d60864c2e58e89db957be936dc49 - Cache
+    libde265/1.0.12#6e7cec8c7e3b1c9bfb6761dfc4d1dbb8 - Cache
+    libdeflate/1.19#3ea74a4549efc14d4b1202dc4bfbf602 - Cache
+    libfdk_aac/2.0.3#a4041d75d31de57214adeb9c6f9cae26 - Cache
+    libheif/1.16.2#19de03ba5898e1b751593d1eff6c0174 - Cache
+    libiconv/1.17#73fefc1b696e069df90fd1d18aa63edd - Cache
+    libjpeg/9e#68269859e4325ddc3f995d1fd3fc9187 - Cache
+    libmp3lame/3.100#44b12d19316eb2b223d98d3e75dae438 - Cache
+    libpng/1.6.42#fdba4ebf89df3c55d6db0145a2a66a24 - Cache
+    libsndfile/1.2.2#b3662f832e29507e8d9840a43737cc14 - Cache
+    libsquish/1.15#7f943e7d0ee7fc638d554d7a470a5f6c - Cache
+    libsvtav1/1.6.0#d93c603fdbc6cdcdc289cae51c3bb88e - Cache
+    libtiff/4.6.0#51d0e7e15d032aeec1b64e65c44ecd9f - Cache
+    libtool/2.4.7#08316dad5c72c541ed21e039e4cf217b - Cache
+    libvpx/1.13.1#31c5cc0bc9fff2b5baf5a1fac60bd9c9 - Cache
+    libwebp/1.3.2#52f69c4a31c5cf033fdd9230d77a8e38 - Cache
+    libx264/cci.20220602#310132b8f365d0d74028128d3677f132 - Cache
+    libx265/3.4#60fd8f9d5a93fd2338a46a0664ddc768 - Cache
+    m4/1.4.19#b38ced39a01e31fef5435bc634461fd2 - Cache
+    minizip-ng/4.0.3#30ab1241b2118271838d74cc47f41cd5 - Cache
+    mpg123/1.31.2#ce831c936b2284e2066ab3dc58a2628e - Cache
+    ogg/1.3.5#062626875f5c8c59f069f76f148098ef - Cache
+    opencolorio/2.3.2#4c872dc27d03706631334cbea4addfe8 - Cache
+    openexr/3.2.1#e4a9892d54aad19942e973b63868f51e - Cache
+    openh264/2.3.1#8b94a94f5472b67355953c7748ad4381 - Cache
+    openimageio/2.5.10.1#70730a0b87f064bd44c8fd9c94ca59c9 - Cache
+    openimageio_shared_test/0.0.1#82b8978507b0867b9c5f215e2c6668a0 - Cache
+    openjpeg/2.5.0#2886244f2492121aa7c6c493a814db06 - Cache
+    openssl/3.2.1#edbeabd3bfc383d2cca3858aa2a78a0d - Cache
+    opus/1.4#54631f551fc450783fb2df8cd63f80a2 - Cache
+    ptex/2.4.2#ba6a60f9dabd40f83df6dafa24e014e9 - Cache
+    pugixml/1.14#c6afdcf73d71858303d8260b0d76ff91 - Cache
+    pulseaudio/14.2#bedb313afed20242c7caa27ae3e10af8 - Cache
+    pystring/1.1.4#f2f8a4650090cf0138456f49842f9134 - Cache
+    tsl-robin-map/1.2.1#c0291b2c42c0c09b5d0c7c894e28283e - Cache
+    vaapi/system#9fa40059fb979af4f9b301b84fb2dfa1 - Cache
+    vdpau/system#bdd7d010c4e3d8762a8f6f08a3cf6760 - Cache
+    vorbis/1.3.7#37e58f52e59a6232199b34ef402714a6 - Cache
+    xorg/system#f626cbdd0ba57d9c53bce2d8b9362fad - Cache
+    xz_utils/5.4.5#a26a2d42ab9c3dabc151bbe1bf898e53 - Cache
+    yaml-cpp/0.8.0#720ad361689101a838b2c703a49e9c26 - Cache
+    zlib/1.3.1#f52e03ae3d251dec704634230cd806a2 - Cache
+    zstd/1.5.5#b87dc3b185caa4b122979ac4ae8ef7e8 - Cache
+Build requirements
+    autoconf/2.71#00a1e46d8ba5baaf7f10d64c1a6a0342 - Cache
+    automake/1.16.5#058bda3e21c36c9aa8425daf3c1faf50 - Cache
+    b2/4.10.1#a41eecb267963ddf518e3c177eae60e1 - Cache
+    cmake/3.28.1#92f79424d7b65b12a84a2180866c3a78 - Cache
+    gettext/0.21#d60d0f85b07f9161696cb7258d51f9d2 - Cache
+    gnu-config/cci.20210814#dc430d754f465e8c74463019672fb97b - Cache
+    libiconv/1.17#73fefc1b696e069df90fd1d18aa63edd - Cache
+    libtool/2.4.7#08316dad5c72c541ed21e039e4cf217b - Cache
+    m4/1.4.19#b38ced39a01e31fef5435bc634461fd2 - Cache
+    meson/1.2.1#f641f02771e4660c772354736da0b9c6 - Cache
+    meson/1.2.2#04bdfb85d665c82b08a3510aee3ffd19 - Cache
+    nasm/2.15.05#058c93b2214a49ca1cfe9f8f26205568 - Cache
+    ninja/1.11.1#77587f8c8318662ac8e5a7867eb4be21 - Cache
+    pkgconf/2.0.3#f996677e96e61e6552d85e83756c328b - Cache
+    pkgconf/2.1.0#27f44583701117b571307cf5b5fe5605 - Cache
+    yasm/1.3.0#fb800a15413dca19bfaef9e4b5d50694 - Cache
+Resolved version ranges
+    cmake/[>=3.16 <4]: cmake/3.28.1
+    cmake/[>=3.18 <4]: cmake/3.28.1
+    cmake/[>=3.19 <4]: cmake/3.28.1
+    openssl/[>=1.1 <4]: openssl/3.2.1
+    zlib/[>=1.2.11 <2]: zlib/1.3.1
+Overrides
+    opencolorio/2.3.1: ['opencolorio/2.3.2']
+
+======== Computing necessary packages ========
+openimageio/2.5.10.1: Checking 5 compatible configurations
+openimageio/2.5.10.1: Compatible configurations not found in cache, checking servers
+openimageio/2.5.10.1: 'd70e0c2525eab6866d03b204e0516dba1c43eef1': compiler.cppstd=14
+openimageio/2.5.10.1: 'b1d77856eeb095b28d00d9b8e2f6741799052ce1': compiler.cppstd=gnu14
+openimageio/2.5.10.1: '6127a49845150af1c7fadaafb7ce025be5376bfa': compiler.cppstd=gnu17
+openimageio/2.5.10.1: 'b024b4b5003ead902a68455136c27ca4c33fa6aa': compiler.cppstd=20
+openimageio/2.5.10.1: '3c91e84770708840b43eba000d7d8ce32400c6dc': compiler.cppstd=gnu20
+openimageio_shared_test/0.0.1: Checking 9 compatible configurations
+openimageio_shared_test/0.0.1: Compatible configurations not found in cache, checking servers
+openimageio_shared_test/0.0.1: 'ff9661fea2c32c6490d5e2388275e32de92cecbe': compiler.cppstd=98
+openimageio_shared_test/0.0.1: '2ecd133c13b40537013c5ed61076d72b3dbc9125': compiler.cppstd=gnu98
+openimageio_shared_test/0.0.1: 'ec5526f8ebe538d2492ba60dc637cb34987bfea4': compiler.cppstd=11
+openimageio_shared_test/0.0.1: 'f0fb673485deef5a979db2482f1ed273fbfe0697': compiler.cppstd=gnu11
+openimageio_shared_test/0.0.1: 'a61235e52f04d3d72694f0178a48dfab3d4bf54b': compiler.cppstd=14
+openimageio_shared_test/0.0.1: '6daed25b953389509465f5bf6bc89ee90c05f662': compiler.cppstd=gnu14
+openimageio_shared_test/0.0.1: '6f949a178cb894ce4368da1a74db143a9a563c39': compiler.cppstd=gnu17
+openimageio_shared_test/0.0.1: '6581e66e7216b70fd88bb8bd985a8fddb2c27c4b': compiler.cppstd=20
+openimageio_shared_test/0.0.1: 'df87433ed8ef5e19c1fca92b0013b0de74236c02': compiler.cppstd=gnu20
+Requirements
+    autoconf/2.71#00a1e46d8ba5baaf7f10d64c1a6a0342:da39a3ee5e6b4b0d3255bfef95601890afd80709#7440f8a166fc2063a7fc2b7bed8eacb3 - Cache
+    automake/1.16.5#058bda3e21c36c9aa8425daf3c1faf50:9a4eb3c8701508aa9458b1a73d0633783ecc2270#9719e51a6a62041af6a63e00eef35434 - Cache
+    boost/1.84.0#5cc9767cd47ba6b5e1b53ab4670f07fc:65821ada35547ccb20256a300c0700f0e449d2b4#610bf0fa98db1227badaa1b5f7bdc57c - Cache
+    brotli/1.1.0#d56d7bb9ca722942aba17369cb5c0519:31b61f13ae3a69db6ba8781f69a0caa205e7547e#79c49432f53b3a0c5d2fb0ac14c7bb19 - Cache
+    bzip2/1.0.8#457c272f7da34cb9c67456dd217d36c4:ec8297ab837fca713a090e79fdba1fd8014d0ec0#f0014f11b21206836ab87ad5357a38dd - Cache
+    cpuinfo/cci.20231129#306f0c2325f566b37835fdea3af1cc2d:430149411bb73ca349b3478b11535aa6bbf62e57#e40b3d21c276a512fe27974592d330f5 - Cache
+    dav1d/1.2.1#94259c8baa2b1e7ab9976f1c20822be8:0695e278a94133b6ef0eab3aa5090e05809c1308#6aabff5c6410c8e40cafbbe8c1d9b4f9 - Cache
+    expat/2.5.0#91e43e4544923e4c934bfad1fa4306f9:a285f85c9e30dd6a83c82bdb75f795c5ace2b11b#6ff4ef6dba885bfb89a69fda94864628 - Cache
+    ffmpeg/6.1#85d65b4d431f9ee9112724c965040eeb:1dc2ce64216a9d1c3627f835c5b4a53f6a5949cb#ed0df37c1294aa6a34149f15b9f68d96 - Cache
+    flac/1.4.2#6a17595ab773d2de32e18b5d3b24afff:fa0158f60c803aff14c67d4c9a5080c9b6585e58#1a2230352ae9f211c0d9cc0e0941fdf5 - Cache
+    fmt/10.2.1#9199a7a0611866dea5c8849a77467b25:7e04b7e7f73e39fdc576aa922147a282cc55c077#6c3e2609ade8146287e894e512fbbba1 - Cache
+    freetype/2.13.2#dfa3d504cae4a08d5c72113bd6f28498:7879c8cacbcc671f5a0e0f54d587a30f47080347#770d5ea8a7208f0fee8e314b77151a98 - Cache
+    giflib/5.2.1#40245212d3adda9d502692704b0b35ab:7a615cd48fbf9cf282c962dfc4574d1e91639420#aeefa10cef0fc7fbc6b444bf740c2dd4 - Cache
+    hdf5/1.14.3#31ccd8d4de83844f5db48471df1944a1:f5c57128dcbfc460678db189232fdd2d8d8f752a#10987fa37ca2374d49aac39ea6e89611 - Cache
+    imath/3.1.9#2e7f5802b247baae47235b4c8d5642c9:3fa31640fccc9e4d5073d596c6e983cf913669d2#2a8055b9c50fe7b76cee30a14048afea - Cache
+    jbig/20160605#2d29fa02aacd76902e0d2cbbc24631ef:305d0a9413b83013f70775c5150b28645eab3f49#bd8a49cc7f90450abfa77cec3d29b3d6 - Cache
+    lcms/2.14#8a8c02ab8c0631e06d705c38b171f053:bc9db6beeb0c164896abc300ab64e1e0ecb1ac9c#2117db9e59f3da9c547578d48b71c9d3 - Cache
+    libalsa/1.2.10#8b568d62190ef588cd5dcdd81171c289:4e00e6fc66b93e816432058ea701548a4db7983a#00ddeba74e7158a3534c2ccc9cac1bc2 - Cache
+    libaom-av1/3.6.1#a569b342c6f8129cf327709e18691072:334e84b39ae013f4af26b7340f89063ab731ec13#776f6fc666e75c595792e0ae5dec8689 - Cache
+    libbacktrace/cci.20210118#ec1aa63bbc10145c6a299e68e711670c:bc9db6beeb0c164896abc300ab64e1e0ecb1ac9c#7a50ba9f63a704b955c88b973a799166 - Cache
+    libcap/2.69#7ef2d60864c2e58e89db957be936dc49:04032f6f1fe8c35789dbb71bf260ad6870c0c479#7bf208bacd673dac2ec3585f0624bc54 - Cache
+    libde265/1.0.12#6e7cec8c7e3b1c9bfb6761dfc4d1dbb8:8b9ca85a007564b9a5e30872d356771ec13de320#839b47ef2b99b7f655776708ea84e104 - Cache
+    libdeflate/1.19#3ea74a4549efc14d4b1202dc4bfbf602:bc9db6beeb0c164896abc300ab64e1e0ecb1ac9c#91eaa6e6ef43b93fcb51cf30479f564d - Cache
+    libfdk_aac/2.0.3#a4041d75d31de57214adeb9c6f9cae26:3fa31640fccc9e4d5073d596c6e983cf913669d2#ccde64fd232e336b2f8d0d59753ff30c - Cache
+    libheif/1.16.2#19de03ba5898e1b751593d1eff6c0174:6d5e7b8b25b24529ba813798c30772f856de7881#e99856f87f8b0fa7b1e82e44b2ae767b - Cache
+    libiconv/1.17#73fefc1b696e069df90fd1d18aa63edd:bc9db6beeb0c164896abc300ab64e1e0ecb1ac9c#aa85b80cb5f0dad25b13538ffc3f73dc - Cache
+    libjpeg/9e#68269859e4325ddc3f995d1fd3fc9187:bc9db6beeb0c164896abc300ab64e1e0ecb1ac9c#0efb543028c2a4d7c446f9723e0056a7 - Cache
+    libmp3lame/3.100#44b12d19316eb2b223d98d3e75dae438:bc9db6beeb0c164896abc300ab64e1e0ecb1ac9c#fd3c771ff654dec8247bdf9498d45fe0 - Cache
+    libpng/1.6.42#fdba4ebf89df3c55d6db0145a2a66a24:670c75def9eb9609e9dbd90b9ad6c62346d8035e#526e73c05fe29f3556ca7dc0d5ff9556 - Cache
+    libsndfile/1.2.2#b3662f832e29507e8d9840a43737cc14:a2ac75364149f0fca5b7bfde20db28426004479a#3e4c3c0df8faf3c32661f4c43eaab5fa - Cache
+    libsquish/1.15#7f943e7d0ee7fc638d554d7a470a5f6c:81e85140d259be77b9e7cf0e4bf2805325f8b595#b50f329fb77e9e650339c75581ef2123 - Cache
+    libsvtav1/1.6.0#d93c603fdbc6cdcdc289cae51c3bb88e:878b9dab6c5bb94f54947179ef4ad73faa77d09a#57f2e28829a3529f33b2a0d5db15e5bd - Cache
+    libtiff/4.6.0#51d0e7e15d032aeec1b64e65c44ecd9f:de3f79d2b6c7f1059e14783d157e80d261eb45af#8e6c38cfcf1b2b51d4ab4581595add15 - Cache
+    libtool/2.4.7#08316dad5c72c541ed21e039e4cf217b:bc9db6beeb0c164896abc300ab64e1e0ecb1ac9c#cdbf7e3b6c3b9579efae629bb07ba89f - Cache
+    libvpx/1.13.1#31c5cc0bc9fff2b5baf5a1fac60bd9c9:45575be967aee7f1381d81c842b46a3a3fca3efd#fc484081d4bf187000895ab47915a488 - Cache
+    libwebp/1.3.2#52f69c4a31c5cf033fdd9230d77a8e38:0ea5130b26596c41d4dce9d39353ea0b4390a239#c4c0bcc496661a7a76355d5513e9be70 - Cache
+    libx264/cci.20220602#310132b8f365d0d74028128d3677f132:54b578a2756a1cb6215f4da89dd58ab492263f26#c28a02a006a52cb220e565a917232019 - Cache
+    libx265/3.4#60fd8f9d5a93fd2338a46a0664ddc768:5b8734528ff7b34bd39d5ae98fbd1c80f0bf5890#f50ea56e977a4960b67694860426c250 - Cache
+    m4/1.4.19#b38ced39a01e31fef5435bc634461fd2:6c3784688ce1ae7a69d803259982d21dd8171d61#69751c45decdd579380a23452b514098 - Cache
+    minizip-ng/4.0.3#30ab1241b2118271838d74cc47f41cd5:49e76bd18c350454b67e67ec6a8098ffaa61c3aa#af21226741960c4a67a83a389d68d9e0 - Cache
+    mpg123/1.31.2#ce831c936b2284e2066ab3dc58a2628e:ab2b75d1dec8240d3f569b3517e8e7ff8f04b571#05b931cb897bd2fb747e24d26fcc8b30 - Cache
+    ogg/1.3.5#062626875f5c8c59f069f76f148098ef:bc9db6beeb0c164896abc300ab64e1e0ecb1ac9c#6e6757349382b463a75179f27501e069 - Cache
+    opencolorio/2.3.2#4c872dc27d03706631334cbea4addfe8:70f6006f6d96745394623710e96dbb4a7c32d678#335fc10fa65caaeba388feb9b7aa197f - Cache
+    openexr/3.2.1#e4a9892d54aad19942e973b63868f51e:a69debfcbe668f7bae5ba90e261ddaa73bb24afb#ea8b9dfbd8f2f9d141fc8d8927939b05 - Cache
+    openh264/2.3.1#8b94a94f5472b67355953c7748ad4381:3fa31640fccc9e4d5073d596c6e983cf913669d2#2296d9564cf1143f9384cab3198f2890 - Cache
+    openimageio/2.5.10.1#70730a0b87f064bd44c8fd9c94ca59c9:0bfc347b6656a61b4c65d0b7ab70d449ba078b6d - Build
+    openimageio_shared_test/0.0.1#82b8978507b0867b9c5f215e2c6668a0:503c5bc92e5232a27bae616978a3b9a48a955d26 - Build
+    openjpeg/2.5.0#2886244f2492121aa7c6c493a814db06:bc9db6beeb0c164896abc300ab64e1e0ecb1ac9c#f11a5d81c1606d8db101509023eaa2f5 - Cache
+    openssl/3.2.1#edbeabd3bfc383d2cca3858aa2a78a0d:54b1f95f76c9a36d8a4970ff15bf51e3d5a9dced#a2955f11932594a8594bc0da42012501 - Cache
+    opus/1.4#54631f551fc450783fb2df8cd63f80a2:8093ab00382c8307a26d391483bf5f00d6b0681f#ab2dbdddbc7c3f8fc03bb464f32f7e44 - Cache
+    ptex/2.4.2#ba6a60f9dabd40f83df6dafa24e014e9:252e514d156382d5d1cdff0c4ef5489a9daf4fc7#634df85ac016571b6a025b56a086d779 - Cache
+    pugixml/1.14#c6afdcf73d71858303d8260b0d76ff91:f68b60c81642656e2dbc5c31902e9f35c97520c5#063828b9a43210bfd0c786502a54b111 - Cache
+    pulseaudio/14.2#bedb313afed20242c7caa27ae3e10af8:cfa85a46cdafae905a17c687c2a1f157c53f1058#c82f3a0c67456fd7669dfbb9f80bea72 - Cache
+    pystring/1.1.4#f2f8a4650090cf0138456f49842f9134:3fa31640fccc9e4d5073d596c6e983cf913669d2#49d18a39cd289dbfe78f139e759a730e - Cache
+    tsl-robin-map/1.2.1#c0291b2c42c0c09b5d0c7c894e28283e:da39a3ee5e6b4b0d3255bfef95601890afd80709#1e635be8167060da3c9d7da2fd8cadfb - Cache
+    vaapi/system#9fa40059fb979af4f9b301b84fb2dfa1:da39a3ee5e6b4b0d3255bfef95601890afd80709#0ba8627bd47edc3a501e8f0eb9a79e5e - Cache
+    vdpau/system#bdd7d010c4e3d8762a8f6f08a3cf6760:da39a3ee5e6b4b0d3255bfef95601890afd80709#0ba8627bd47edc3a501e8f0eb9a79e5e - Cache
+    vorbis/1.3.7#37e58f52e59a6232199b34ef402714a6:5e4e6c8f2b381f42b56cde79dce647c87fe2c2b5#3b62d69dbcef40ebeab5219018e4cea1 - Cache
+    xorg/system#f626cbdd0ba57d9c53bce2d8b9362fad:da39a3ee5e6b4b0d3255bfef95601890afd80709#0ba8627bd47edc3a501e8f0eb9a79e5e - Cache
+    xz_utils/5.4.5#a26a2d42ab9c3dabc151bbe1bf898e53:bc9db6beeb0c164896abc300ab64e1e0ecb1ac9c#198cf4640039b83706b5b4325de3dda0 - Cache
+    yaml-cpp/0.8.0#720ad361689101a838b2c703a49e9c26:3fa31640fccc9e4d5073d596c6e983cf913669d2#ad4de819868dfa47248795812b1eed26 - Cache
+    zlib/1.3.1#f52e03ae3d251dec704634230cd806a2:bc9db6beeb0c164896abc300ab64e1e0ecb1ac9c#0aefbd3046a84facc8d24b733eac2fd9 - Cache
+    zstd/1.5.5#b87dc3b185caa4b122979ac4ae8ef7e8:7b5b67b78bc7d72955c9c26a38e66666c43daf5c#dd8b9ec4545708f7a0fab6575dafa91f - Cache
+Build requirements
+Skipped binaries
+    autoconf/2.71, automake/1.16.5, b2/4.10.1, cmake/3.28.1, gettext/0.21, gnu-config/cci.20210814, libiconv/1.17, libtool/2.4.7, m4/1.4.19, meson/1.2.1, meson/1.2.2, nasm/2.15.05, ninja/1.11.1, pkgconf/2.0.3, pkgconf/2.1.0, yasm/1.3.0
+vaapi/system: System requirements:  already installed
+vdpau/system: System requirements:  already installed
+xorg/system: System requirements:  already installed
+xorg/system: System requirements:  already installed
+
+======== Installing packages ========
+brotli/1.1.0: Already installed! (1 of 63)
+bzip2/1.0.8: Already installed! (2 of 63)
+cpuinfo/cci.20231129: Already installed! (3 of 63)
+expat/2.5.0: Already installed! (4 of 63)
+fmt/10.2.1: Already installed! (5 of 63)
+giflib/5.2.1: Already installed! (6 of 63)
+imath/3.1.9: Already installed! (7 of 63)
+jbig/20160605: Already installed! (8 of 63)
+libaom-av1/3.6.1: Already installed! (9 of 63)
+libbacktrace/cci.20210118: Already installed! (10 of 63)
+libcap/2.69: Already installed! (11 of 63)
+libde265/1.0.12: Already installed! (12 of 63)
+libdeflate/1.19: Already installed! (13 of 63)
+libfdk_aac/2.0.3: Already installed! (14 of 63)
+libiconv/1.17: Already installed! (15 of 63)
+libjpeg/9e: Already installed! (16 of 63)
+libsquish/1.15: Already installed! (17 of 63)
+libwebp/1.3.2: Already installed! (18 of 63)
+m4/1.4.19: Already installed! (19 of 63)
+ogg/1.3.5: Already installed! (20 of 63)
+openjpeg/2.5.0: Already installed! (21 of 63)
+opus/1.4: Already installed! (22 of 63)
+pugixml/1.14: Already installed! (23 of 63)
+pystring/1.1.4: Already installed! (24 of 63)
+tsl-robin-map/1.2.1: Already installed! (25 of 63)
+vaapi/system: Already installed! (26 of 63)
+vdpau/system: Already installed! (27 of 63)
+xorg/system: Already installed! (28 of 63)
+xz_utils/5.4.5: Already installed! (29 of 63)
+yaml-cpp/0.8.0: Already installed! (30 of 63)
+zlib/1.3.1: Already installed! (31 of 63)
+zstd/1.5.5: Already installed! (32 of 63)
+libmp3lame/3.100: Already installed! (33 of 63)
+libvpx/1.13.1: Already installed! (34 of 63)
+libx264/cci.20220602: Already installed! (35 of 63)
+libx265/3.4: Already installed! (36 of 63)
+openh264/2.3.1: Already installed! (37 of 63)
+dav1d/1.2.1: Already installed! (38 of 63)
+lcms/2.14: Already installed! (39 of 63)
+mpg123/1.31.2: Already installed! (40 of 63)
+mpg123/1.31.2: Appending PATH environment variable: /root/.conan2/p/b/mpg1289f2edfb7c690/p/bin
+libalsa/1.2.10: Already installed! (41 of 63)
+autoconf/2.71: Already installed! (42 of 63)
+boost/1.84.0: Already installed! (43 of 63)
+flac/1.4.2: Already installed! (44 of 63)
+flac/1.4.2: Appending PATH environment variable: /root/.conan2/p/b/flac695a67992efd8/p/bin
+hdf5/1.14.3: Already installed! (45 of 63)
+libheif/1.16.2: Already installed! (46 of 63)
+libpng/1.6.42: Already installed! (47 of 63)
+libsvtav1/1.6.0: Already installed! (48 of 63)
+libtiff/4.6.0: Already installed! (49 of 63)
+openexr/3.2.1: Already installed! (50 of 63)
+openssl/3.2.1: Already installed! (51 of 63)
+ptex/2.4.2: Already installed! (52 of 63)
+vorbis/1.3.7: Already installed! (53 of 63)
+automake/1.16.5: Already installed! (54 of 63)
+freetype/2.13.2: Already installed! (55 of 63)
+minizip-ng/4.0.3: Already installed! (56 of 63)
+libsndfile/1.2.2: Already installed! (57 of 63)
+libtool/2.4.7: Already installed! (58 of 63)
+libtool/2.4.7: WARN: The use of 'unix_path_legacy_compat' is deprecated in Conan 2.0 and does not perform path conversions. This is retained for compatibility with Conan 1.x and will be removed in a future version.
+libtool/2.4.7: WARN: The use of 'unix_path_legacy_compat' is deprecated in Conan 2.0 and does not perform path conversions. This is retained for compatibility with Conan 1.x and will be removed in a future version.
+opencolorio/2.3.2: Already installed! (59 of 63)
+opencolorio/2.3.2: Appending PATH env var with: /root/.conan2/p/b/openc81dba2a883038/p/bin
+pulseaudio/14.2: Already installed! (60 of 63)
+ffmpeg/6.1: Already installed! (61 of 63)
+
+-------- Installing package openimageio/2.5.10.1 (62 of 63) --------
+openimageio/2.5.10.1: Building from source
+openimageio/2.5.10.1: Package openimageio/2.5.10.1:0bfc347b6656a61b4c65d0b7ab70d449ba078b6d
+openimageio/2.5.10.1: Copying sources to build folder
+openimageio/2.5.10.1: Building your package in /root/.conan2/p/b/openi639309fcec800/b
+openimageio/2.5.10.1: Calling generate()
+openimageio/2.5.10.1: Generators folder: /root/.conan2/p/b/openi639309fcec800/b/build/Debug/generators
+openimageio/2.5.10.1: CMakeToolchain generated: conan_toolchain.cmake
+openimageio/2.5.10.1: CMakeToolchain generated: CMakePresets.json
+openimageio/2.5.10.1: CMakeToolchain generated: ../../../src/CMakeUserPresets.json
+openimageio/2.5.10.1: Generating aggregated env files
+openimageio/2.5.10.1: Generated aggregated env files: ['conanbuild.sh', 'conanrun.sh']
+openimageio/2.5.10.1: Calling build()
+openimageio/2.5.10.1: Apply patch (conan): Ensure project builds correctly with Conan (don't pick up disabled dependencies from the system, fix different spelling of libraries)
+openimageio/2.5.10.1: Running CMake.configure()
+openimageio/2.5.10.1: RUN: cmake -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE="/root/.conan2/p/b/openi639309fcec800/b/build/Debug/generators/conan_toolchain.cmake" -DCMAKE_INSTALL_PREFIX="/root/.conan2/p/b/openi639309fcec800/p" -DCMAKE_POLICY_DEFAULT_CMP0091="NEW" -DCMAKE_BUILD_TYPE="Debug" "/root/.conan2/p/b/openi639309fcec800/b/src"
+-- Using Conan toolchain: /root/.conan2/p/b/openi639309fcec800/b/build/Debug/generators/conan_toolchain.cmake
+-- Conan toolchain: C++ Standard 17 with extensions OFF
+-- Conan toolchain: Setting BUILD_SHARED_LIBS = ON
+-- The CXX compiler identification is GNU 10.2.1
+-- The C compiler identification is GNU 10.2.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring OpenImageIO 2.5.10.1
+-- CMake 3.18.4
+-- CMake system           = Linux-6.8.7-300.fc40.x86_64
+-- CMake system name      = Linux
+-- Project source dir     = /root/.conan2/p/b/openi639309fcec800/b/src
+-- Project build dir      = /root/.conan2/p/b/openi639309fcec800/b/build/Debug
+-- Project install prefix = /root/.conan2/p/b/openi639309fcec800/p
+-- Configuration types    = 
+-- Build type             = Debug
+-- Supported release      = ON
+-- CMAKE_UNITY_BUILD_MODE = 
+-- CMAKE_UNITY_BUILD_BATCH_SIZE = 
+-- Setting Namespace to: OpenImageIO_v2_5
+-- CMAKE_CXX_COMPILER     = /usr/bin/c++
+-- CMAKE_CXX_COMPILER_ID  = GNU
+-- Building with C++14, downstream minimum C++14
+-- Using Boost::filesystem
+-- clang-format not found.
+-- [1;37m
+-- * Checking for dependencies...
+-- *   - Missing a dependency 'Package'?
+-- *     Try cmake -DPackage_ROOT=path or set environment var Package_ROOT=path
+-- *     For many dependencies, we supply src/build-scripts/build_Package.bash
+-- *   - To exclude an optional dependency (even if found),
+-- *     -DUSE_Package=OFF or set environment var USE_Package=OFF 
+-- [m
+-- Boost_COMPONENTS = filesystem;system;thread;container;filesystem
+-- [32mFound Boost 1.84.0 [m
+-- [32mFound ZLIB 1.3.1 [m
+-- [32mFound TIFF 4.6.0 [m
+-- [32mFound OpenEXR 3.2.1 [m
+-- [32mFound JPEG 9e [m
+-- [32mFound pugixml 1.14 [m
+-- [32mFound PNG 1.6.42 [m
+-- Conan: Target declared 'Freetype::Freetype'
+-- Conan: Including build module from '/root/.conan2/p/b/freet00d3d94aa06a0/p/lib/cmake/conan-official-freetype-variables.cmake'
+-- [32mFound Freetype 2.13.2 [m
+-- [32mFound OpenColorIO 2.3.2 [m
+-- [32mFound ffmpeg 6.1 [m
+-- [32mFound GIF 5.2.1 [m
+-- [32mFound libheif 1.16.2 [m
+-- [32mFound OpenJPEG 2.5.0 [m
+-- [32mFound ptex 2.4.2 from CONFIG[m
+-- [32mFound WebP 1.3.2 [m
+-- Conan: Component target declared 'tsl::robin_map'
+-- [32mFound tsl-robin-map 1.2.1 [m
+-- Conan: Component target declared 'fmt::fmt'
+-- [32mFound fmt 10.2.1 [m
+-- All build dependencies: Boost 1.84.0;ffmpeg 6.1;fmt 10.2.1;Freetype 2.13.2;GIF 5.2.1;JPEG 9e;libheif 1.16.2;OpenColorIO 2.3.2;OpenEXR 3.2.1;OpenJPEG 2.5.0;PNG 1.6.42;ptex 2.4.2;pugixml 1.14;TIFF 4.6.0;tsl-robin-map 1.2.1;WebP 1.3.2;ZLIB 1.3.1
+CMake Warning at src/dicom.imageio/CMakeLists.txt:10 (message):
+  DICOM plugin will not be built, no DCMTK
+
+
+-- OpenEXR core library will not be used by default
+CMake Warning at src/raw.imageio/CMakeLists.txt:11 (message):
+  Raw plugin will not be built
+
+
+-- OpenEXR core library will not be used by default
+-- 
+
+   WARNING: Qt or OpenGL not found -- 'iv' will not be built!
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/.conan2/p/b/openi639309fcec800/b/build/Debug
+
+openimageio/2.5.10.1: Running CMake.build()
+openimageio/2.5.10.1: RUN: cmake --build "/root/.conan2/p/b/openi639309fcec800/b/build/Debug" -- -j1
+Scanning dependencies of target CopyFiles
+[  0%] Generating testsuite/runtest.py
+[  0%] Built target CopyFiles
+Scanning dependencies of target OpenImageIO_Util
+[  1%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/argparse.cpp.o
+[  1%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/benchmark.cpp.o
+[  2%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/errorhandler.cpp.o
+[  3%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/farmhash.cpp.o
+[  3%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/filesystem.cpp.o
+[  4%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/fmath.cpp.o
+[  5%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/filter.cpp.o
+[  6%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/hashes.cpp.o
+[  6%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/paramlist.cpp.o
+[  7%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/plugin.cpp.o
+[  8%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/SHA1.cpp.o
+[  9%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/strutil.cpp.o
+[  9%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/sysutil.cpp.o
+[ 10%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/thread.cpp.o
+[ 11%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/timer.cpp.o
+[ 11%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/typedesc.cpp.o
+[ 12%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/ustring.cpp.o
+[ 13%] Building CXX object src/libutil/CMakeFiles/OpenImageIO_Util.dir/xxhash.cpp.o
+[ 14%] Linking CXX shared library ../../lib/libOpenImageIO_Util.so
+[ 14%] Built target OpenImageIO_Util
+Scanning dependencies of target OpenImageIO
+[ 15%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo.cpp.o
+[ 16%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_pixelmath.cpp.o
+[ 16%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_channels.cpp.o
+[ 17%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_compare.cpp.o
+[ 18%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_copy.cpp.o
+[ 19%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_deep.cpp.o
+[ 19%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_draw.cpp.o
+[ 20%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_addsub.cpp.o
+[ 21%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_muldiv.cpp.o
+[ 21%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_mad.cpp.o
+[ 22%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_minmaxchan.cpp.o
+[ 23%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_orient.cpp.o
+[ 24%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_xform.cpp.o
+[ 24%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_yee.cpp.o
+[ 25%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebufalgo_opencv.cpp.o
+[ 26%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/deepdata.cpp.o
+[ 27%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/exif.cpp.o
+[ 27%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/exif-canon.cpp.o
+[ 28%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/formatspec.cpp.o
+[ 29%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/icc.cpp.o
+[ 29%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imagebuf.cpp.o
+[ 30%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imageinput.cpp.o
+[ 31%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imageio.cpp.o
+[ 32%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imageioplugin.cpp.o
+[ 32%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/imageoutput.cpp.o
+[ 33%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/iptc.cpp.o
+[ 34%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/xmp.cpp.o
+[ 35%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/color_ocio.cpp.o
+[ 35%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/maketexture.cpp.o
+[ 36%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/bluenoise.cpp.o
+[ 37%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/printinfo.cpp.o
+[ 37%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/libtexture/texturesys.cpp.o
+In file included from /root/.conan2/p/b/openi639309fcec800/b/src/src/include/OpenImageIO/dassert.h:12,
+                 from /root/.conan2/p/b/openi639309fcec800/b/src/src/include/OpenImageIO/detail/fmt.h:8,
+                 from /root/.conan2/p/b/openi639309fcec800/b/build/Debug/include/OpenImageIO/Imath.h:9,
+                 from /root/.conan2/p/b/openi639309fcec800/b/src/src/libtexture/texturesys.cpp:13:
+/root/.conan2/p/b/openi639309fcec800/b/src/src/libtexture/texturesys.cpp: In static member function ‘static OpenImageIO_v2_5::TextureSystem* OpenImageIO_v2_5::TextureSystem::create(bool, OpenImageIO_v2_5::ImageCache*)’:
+/root/.conan2/p/b/openi639309fcec800/b/src/src/include/OpenImageIO/platform.h:258:41: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  258 |     #define OIIO_PRAGMA(UnQuotedPragma) _Pragma(#UnQuotedPragma)
+      |                                         ^~~~~~~
+/root/.conan2/p/b/openi639309fcec800/b/src/src/include/OpenImageIO/platform.h:272:54: note: in expansion of macro ‘OIIO_PRAGMA’
+  272 | #        define OIIO_GCC_ONLY_PRAGMA(UnQuotedPragma) OIIO_PRAGMA(UnQuotedPragma)
+      |                                                      ^~~~~~~~~~~
+/root/.conan2/p/b/openi639309fcec800/b/src/src/libtexture/texturesys.cpp:89:5: note: in expansion of macro ‘OIIO_GCC_ONLY_PRAGMA’
+   89 |     OIIO_GCC_ONLY_PRAGMA(GCC diagnostic ignored "-Wmismatched-new-delete")
+      |     ^~~~~~~~~~~~~~~~~~~~
+[ 38%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/libtexture/texture3d.cpp.o
+[ 39%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/libtexture/environment.cpp.o
+[ 40%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/libtexture/texoptions.cpp.o
+[ 40%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/libtexture/imagecache.cpp.o
+[ 41%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/bmp.imageio/bmpinput.cpp.o
+[ 42%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/bmp.imageio/bmpoutput.cpp.o
+[ 42%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/bmp.imageio/bmp_pvt.cpp.o
+[ 43%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/cineon.imageio/cineoninput.cpp.o
+[ 44%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/cineon.imageio/libcineon/Cineon.cpp.o
+[ 45%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/cineon.imageio/libcineon/OutStream.cpp.o
+[ 45%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/cineon.imageio/libcineon/Codec.cpp.o
+[ 46%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/cineon.imageio/libcineon/Reader.cpp.o
+[ 47%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/cineon.imageio/libcineon/CineonHeader.cpp.o
+[ 48%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/cineon.imageio/libcineon/ElementReadStream.cpp.o
+[ 48%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/cineon.imageio/libcineon/InStream.cpp.o
+[ 49%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dds.imageio/ddsinput.cpp.o
+[ 50%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dpx.imageio/dpxinput.cpp.o
+[ 50%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dpx.imageio/dpxoutput.cpp.o
+[ 51%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dpx.imageio/libdpx/DPX.cpp.o
+[ 52%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dpx.imageio/libdpx/OutStream.cpp.o
+[ 53%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dpx.imageio/libdpx/RunLengthEncoding.cpp.o
+[ 53%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dpx.imageio/libdpx/Codec.cpp.o
+[ 54%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dpx.imageio/libdpx/Reader.cpp.o
+[ 55%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dpx.imageio/libdpx/Writer.cpp.o
+[ 56%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dpx.imageio/libdpx/DPXHeader.cpp.o
+[ 56%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dpx.imageio/libdpx/ElementReadStream.cpp.o
+[ 57%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dpx.imageio/libdpx/InStream.cpp.o
+[ 58%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/dpx.imageio/libdpx/DPXColorConverter.cpp.o
+[ 58%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/ffmpeg.imageio/ffmpeginput.cpp.o
+[ 59%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/fits.imageio/fitsinput.cpp.o
+[ 60%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/fits.imageio/fitsoutput.cpp.o
+[ 61%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/fits.imageio/fits_pvt.cpp.o
+[ 61%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/gif.imageio/gifinput.cpp.o
+[ 62%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/gif.imageio/gifoutput.cpp.o
+[ 63%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/hdr.imageio/hdrinput.cpp.o
+[ 64%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/hdr.imageio/hdroutput.cpp.o
+[ 64%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/heif.imageio/heifinput.cpp.o
+[ 65%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/heif.imageio/heifoutput.cpp.o
+[ 66%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/ico.imageio/icoinput.cpp.o
+[ 66%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/ico.imageio/icooutput.cpp.o
+[ 67%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/iff.imageio/iffinput.cpp.o
+[ 68%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/iff.imageio/iffoutput.cpp.o
+[ 69%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/jpeg.imageio/jpeginput.cpp.o
+[ 69%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/jpeg.imageio/jpegoutput.cpp.o
+[ 70%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/jpeg2000.imageio/jpeg2000input.cpp.o
+[ 71%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/jpeg2000.imageio/jpeg2000output.cpp.o
+[ 71%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/null.imageio/nullimageio.cpp.o
+[ 72%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/openexr.imageio/exrinput.cpp.o
+[ 73%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/openexr.imageio/exroutput.cpp.o
+[ 74%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/openexr.imageio/exrinput_c.cpp.o
+[ 74%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/png.imageio/pnginput.cpp.o
+[ 75%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/png.imageio/pngoutput.cpp.o
+[ 76%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/pnm.imageio/pnminput.cpp.o
+[ 77%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/pnm.imageio/pnmoutput.cpp.o
+[ 77%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/psd.imageio/psdinput.cpp.o
+[ 78%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/ptex.imageio/ptexinput.cpp.o
+[ 79%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/rla.imageio/rlainput.cpp.o
+[ 79%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/rla.imageio/rlaoutput.cpp.o
+[ 80%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/sgi.imageio/sgiinput.cpp.o
+[ 81%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/sgi.imageio/sgioutput.cpp.o
+[ 82%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/softimage.imageio/softimageinput.cpp.o
+[ 82%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/softimage.imageio/softimage_pvt.cpp.o
+[ 83%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/targa.imageio/targainput.cpp.o
+[ 84%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/targa.imageio/targaoutput.cpp.o
+[ 85%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/term.imageio/termoutput.cpp.o
+[ 85%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/tiff.imageio/tiffinput.cpp.o
+[ 86%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/tiff.imageio/tiffoutput.cpp.o
+[ 87%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/webp.imageio/webpinput.cpp.o
+[ 87%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/webp.imageio/webpoutput.cpp.o
+[ 88%] Building CXX object src/libOpenImageIO/CMakeFiles/OpenImageIO.dir/__/zfile.imageio/zfile.cpp.o
+[ 89%] Linking CXX shared library ../../lib/libOpenImageIO.so
+[ 89%] Built target OpenImageIO
+Scanning dependencies of target iconvert
+[ 89%] Building CXX object src/iconvert/CMakeFiles/iconvert.dir/iconvert.cpp.o
+[ 90%] Linking CXX executable ../../bin/iconvert
+/usr/bin/ld: warning: libssl.so.3, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libcrypto.so.3, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libiconv.so.2, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libswresample.so.4, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libvpx.so.8, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libwebpmux.so.3, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libdav1d.so.6, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libaom.so.3, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libfdk-aac.so.2, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libmp3lame.so.0, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libopus.so.0, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libSvtAv1Enc.so.1, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libvorbis.so.0.4.9, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libvorbisenc.so.2.0.12, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libx264.so.164, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libx265.so.192, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libopenh264.so.7, needed by /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libde265.so, needed by /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libjbig.so, needed by /root/.conan2/p/b/libti6f9d954b70f24/p/lib/libtiff.so.6, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libpystring.so, needed by /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libyaml-cppd.so.0.8, needed by /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libminizip-ng.so.4, needed by /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_analysis'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_info_clear'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::StartedScalar()'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_get_encoder_delay'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `svt_av1_enc_deinit'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_decode'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `WebPAnimEncoderNewInternal'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_synthesis_headerin'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_encoder_close'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_reader_goto_first_entry'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `ERR_get_error@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_push_NAL'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_writer_entry_open'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `vtable for YAML::BadConversion'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `TLS_client_method@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::SetFloatPrecision(unsigned long)'
+/usr/bin/ld: /root/.conan2/p/b/libti6f9d954b70f24/p/lib/libtiff.so.6: undefined reference to `jbg_enc_out'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_enc_init_ver'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::ostream_wrapper::write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_meth_set_ctrl@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_data_unref'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavutil.so.58: undefined reference to `RAND_bytes@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacDecoder_DecodeFrame'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_writer_add_path'
+/usr/bin/ld: /root/.conan2/p/b/libti6f9d954b70f24/p/lib/libtiff.so.6: undefined reference to `jbg_dec_getsize'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_get_frame_delay'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_get_picture'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_meth_set_read@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_original'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_free_decoder'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_sub_word@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/opene2cd7fedef2c50/p/lib/libOpenEXRCore-3_2_d.so.31: undefined reference to `libdeflate_alloc_compressor_ex'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_bWriteVbrTag'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_encoder_headers'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacDecoder_AncDataInit'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_synthesis_read'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_get_cx_data'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_av1_cx'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_new@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_get_framesize'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_encoder_encode'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::os::path::dirname(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_synthesis_init'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::detail::memory::create_node()'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacDecoder_GetStreamInfo'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `swr_alloc@LIBSWRESAMPLE_4'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::GetDoublePrecision() const'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_open'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_destroy'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_CTX_new@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_copy@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_writer_entry_close'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_reader_open_file'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `libiconv_open'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_vp8_dx'
+/usr/bin/ld: /root/.conan2/p/b/opene2cd7fedef2c50/p/lib/libOpenEXRCore-3_2_d.so.31: undefined reference to `libdeflate_alloc_decompressor_ex'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_encode_setup_init'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `swr_convert@LIBSWRESAMPLE_4'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_get_frame'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacEncEncode'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::startswith(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_cmp@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::detail::node_data::set_null()'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_err_to_string'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_synthesis_pcmout'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `vtable for YAML::InvalidNode'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacDecoder_Close'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_path_compare_wc'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_encoder_reconfig'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacDecoder_Fill'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_reader_entry_close'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacEncOpen'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_get_bits_per_pixel'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_brate'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `svt_av1_enc_send_picture'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_get_next_picture'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_os_close_dir'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_block_init'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_bitrate_flushpacket'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_vp9_cx'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `WebPAnimEncoderDelete'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_CTX_free@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_param_parse'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_reader_close'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_comment_clear'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_analysis_wrote'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_error'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_in_samplerate'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::os::path::join(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_stream_mem_create'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_encoder_maximum_delayed_frames'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_CTX_new@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_decode'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_control'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_num_bits@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_meth_new@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `WebPAnimEncoderOptionsInitInternal'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `opus_multistream_decode'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_av1_dx'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_start_worker_threads'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_ctrl@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::detail::node_data::end()'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_free@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_reader_delete'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_get_image_colour_primaries'
+/usr/bin/ld: /root/.conan2/p/b/libti6f9d954b70f24/p/lib/libtiff.so.6: undefined reference to `jbg_dec_init'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `opus_multistream_decoder_create'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_writer_open'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_dsp_clear'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `opus_multistream_decoder_ctl'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_os_read_dir'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_synthesis'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_disable_reservoir'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_control_'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_set_init@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::lstrip(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_error_detail'
+/usr/bin/ld: /root/.conan2/p/b/libti6f9d954b70f24/p/lib/libtiff.so.6: undefined reference to `jbg_dec_free'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `opus_multistream_encode_float'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_CTX_free@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_err_to_string'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::Write(YAML::_Tag const&)'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_writer_delete'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `WelsGetCodecVersion'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacDecoder_SetParam'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_get_image_transfer_characteristics'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::~Emitter()'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `swr_is_initialized@LIBSWRESAMPLE_4'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::os::path::isabs(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_analysis_blockout'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_data_wrap_user_data'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::detail::node_data::size() const'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `opus_multistream_encoder_destroy'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_VBR'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::os::path::split(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_reader_save_all'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_close'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::detail::node_data::empty_scalar[abi:cxx11]()'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_set_frame_buffer_functions'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `WelsCreateSVCEncoder'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `svt_av1_enc_parse_parameter'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_os_is_dir'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_comment_add_tag'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_vp9_dx'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::good() const'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_writer_set_compress_level'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_encode_buffer_int'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_accept@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `swr_free@LIBSWRESAMPLE_4'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_img_wrap'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::mul(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_meth_set_puts@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_encode'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `WelsDestroySVCEncoder'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: /root/.conan2/p/b/libti6f9d954b70f24/p/lib/libtiff.so.6: undefined reference to `jbg_enc_free'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_reader_create'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_encode_setup_vbr'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_build_config'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::PrepareNode(YAML::EmitterNodeType::value)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_encoder_open_164'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_CTX_use_certificate_chain_file@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_stream_open'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_decode'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_picture_unref'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `typeinfo for YAML::BadConversion'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_get_cx_data'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_release_next_picture'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_mode'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_error'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::os::path::basename(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::GetFloatPrecision() const'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_bn2bin@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `opus_multistream_encoder_ctl'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_param_cleanup'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `WebPAnimEncoderAdd'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_param_apply_profile'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_get_caps'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::Write(bool)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `svt_av1_enc_get_packet'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_info_init'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_free'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_stream_mem_close'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_get_event_flags'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Load(std::istream&)'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::os::path::normpath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_get_image_plane'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_version'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_vp8_cx'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_writer_entry_write'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `libiconv_close'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_read@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::detail::node_data::begin()'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::BadConversion::~BadConversion()'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `svt_av1_enc_release_out_buffer'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `opus_multistream_encode'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_free@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_meth_set_write@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `svt_av1_enc_init_handle'
+/usr/bin/ld: /root/.conan2/p/b/libti6f9d954b70f24/p/lib/libtiff.so.6: undefined reference to `jbg_dec_getimage'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_stream_mem_get_buffer'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_write@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `svt_av1_enc_stream_header_release'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_encode_ctl'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_stream_mem_set_grow_size'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::split(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_VBR_quality'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::Write(char)'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_stream_mem_delete'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_connect@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_set_flags@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacDecoder_ConfigRaw'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_get_image_full_range_flag'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::replace(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_analysis_init'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_version'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_reader_entry_get_info'
+/usr/bin/ld: /root/.conan2/p/b/libti6f9d954b70f24/p/lib/libtiff.so.6: undefined reference to `jbg_strerror'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_mod_exp@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_param_apply_fastfirstpass'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_writer_close'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_bin2bn@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_version'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `swr_close@LIBSWRESAMPLE_4'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `opus_multistream_encoder_create'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::strip(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x265_api_get_192'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_meth_set_destroy@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_new@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::SetDoublePrecision(unsigned long)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `svt_av1_enc_set_parameter'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_encode_buffer_float'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_get_version'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_destroy'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_get_chroma_format'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_meth_free@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_levels'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_data_wrap'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_writer_create'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_build_config'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_CTX_set_options@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_CTX_use_PrivateKey_file@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_encode'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_meth_set_create@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_value_one@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacEncInfo'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_block_clear'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::c_str() const'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_comment_init'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_picture_init'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_param_default'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacDecoder_Open'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_rand@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_synthesis_blockin'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `opus_multistream_surround_encoder_create'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_encode_setup_managed'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_enc_config_set'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_set_word@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_get_error@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `swr_init@LIBSWRESAMPLE_4'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_get_image_width'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_writer_set_compress_method'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_lowpassfreq'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_os_open_dir'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_shutdown@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_reader_entry_save_buffer'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `opus_multistream_decode_float'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `WebPAnimEncoderAssemble'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_reader_entry_save_buffer_length'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_clear_flags@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_param_default_preset'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_get_frame'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_quality'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `WelsDestroyDecoder'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `vtable for YAML::RepresentationException'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `svt_av1_enc_init'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_close'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_analysis_headerout'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_error_detail'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_num_channels'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_dec_init_ver'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::Emitter()'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_zip_reader_goto_next_entry'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_bitrate_addblock'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `TLS_server_method@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_img_wrap'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BN_hex2bn@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_encode_buffer'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_version_str'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacEncoder_SetParam'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vorbis_analysis_buffer'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_set_option'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_CTX_set_verify@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_new@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_init'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_init'
+/usr/bin/ld: /root/.conan2/p/b/libti6f9d954b70f24/p/lib/libtiff.so.6: undefined reference to `jbg_enc_init'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_dec_init_ver'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_get_image_matrix_coefficients'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_send_data'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_set_data@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `svt_av1_enc_deinit_handle'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `vtable for YAML::Exception'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `ERR_error_string@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_enc_init_ver'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `x264_encoder_delayed_frames'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `svt_av1_enc_stream_header'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `libiconv'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_get_caps'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_stream_mem_tell'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `mz_stream_mem_seek'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_encode_flush'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::detail::node_data::mark_defined()'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_set_bio@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `WelsCreateDecoder'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_init_params'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aacEncClose'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_enc_config_default'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `pystring::os::path::splitext(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_parse_sequence_header'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_new_decoder'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::Emitter::SetLocalValue(YAML::EMITTER_MANIP)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `opus_multistream_decoder_destroy'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_out_samplerate'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `BIO_get_data@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/libti6f9d954b70f24/p/lib/libtiff.so.6: undefined reference to `jbg_dec_in'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `vpx_codec_enc_config_default'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `YAML::convert<bool>::decode(YAML::Node const&, bool&)'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_flush'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavformat.so.60: undefined reference to `SSL_CTX_load_verify_locations@OPENSSL_3.0.0'
+/usr/bin/ld: /root/.conan2/p/b/openc81dba2a883038/p/lib/libOpenColorIO.so.2.3: undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_VBR_mean_bitrate_kbps'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `aom_codec_version_str'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `opus_strerror'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `lame_set_copyright'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_flush_data'
+/usr/bin/ld: /root/.conan2/p/b/ffmpea66da6fb738bf/p/lib/libavcodec.so.60: undefined reference to `dav1d_default_settings'
+/usr/bin/ld: /root/.conan2/p/b/libheb39638bd94a0b/p/lib/libheif.so.1: undefined reference to `de265_get_image_height'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [src/iconvert/CMakeFiles/iconvert.dir/build.make:107: bin/iconvert] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1058: src/iconvert/CMakeFiles/iconvert.dir/all] Error 2
+gmake: *** [Makefile:171: all] Error 2
+
+openimageio/2.5.10.1: ERROR: 
+Package '0bfc347b6656a61b4c65d0b7ab70d449ba078b6d' build failed
+openimageio/2.5.10.1: WARN: Build folder /root/.conan2/p/b/openi639309fcec800/b/build/Debug
+ERROR: openimageio/2.5.10.1: Error in build() method, line 202
+	cmake.build()
+	ConanException: Error 2 while executing
